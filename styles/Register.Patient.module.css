@@ -1,0 +1,56 @@
+.container {
+    background-color: #ABC8C7;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.facebookButton {
+    font-family: Helvetica,sans-serif;
+    font-weight: 500;
+    -webkit-font-smoothing: antialiased;
+    color: #fff;
+    cursor: pointer;
+    display: inline-block;
+    font-size: calc(.27548vw + 12.71074px);
+    text-decoration: none;
+    transition: background-color .3s,border-color .3s;
+    background-color: #4c69ba;
+    border: calc(.06887vw + .67769px) solid #4c69ba;
+    padding: calc(.34435vw + 13.38843px) calc(.34435vw + 18.38843px);
+    width: 100%;
+    border-radius: 2px;
+}
+
+.registrationImage {
+    margin: 5%;
+    width: 40%;
+}
+
+.registrationForm {
+    width: 40%;
+    background-color: #FFFFFF50;
+    padding: 5%;
+    border-radius: 8px;
+}
+
+.basicTextFields {
+    width: 100%;
+}
+
+@media (max-width: 600px) {
+    .container {
+        flex-direction: column;
+        justify-content: start;
+    }
+
+    .registrationImage {
+        width: 50%;
+    }
+
+    .registrationForm {
+        width: 90%;
+    }
+}

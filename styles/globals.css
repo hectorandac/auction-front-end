@@ -1,0 +1,54 @@
+html,
+body {
+  padding: 0;
+  margin: 0;
+  font-family: raleway, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
+    Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+/* Custom global css */
+
+.slick-slide {
+  transition: 0.5s;
+  overflow: show;
+  filter: opacity(25%);
+}
+
+.slick-dots {
+  bottom: 25px;
+}
+
+.slick-current {
+  transform: scale(1.2);
+  overflow: show;
+  filter: none;
+}
+
+.slick-current #content_container {
+  box-shadow: 0 3px 10px 2px rgba(0, 0, 0, .1);
+}
+
+.material-icons {
+  direction: ltr;
+  display: inline-block;
+  font-family: 'Material Icons';
+  font-size: 24px;
+  font-style: normal;
+  font-weight: normal;
+  letter-spacing: normal;
+  line-height: 1;
+  text-transform: none;
+  white-space: nowrap;
+  word-wrap: normal;
+  -webkit-font-feature-settings: 'liga';
+  -webkit-font-smoothing: antialiased;
+}
